@@ -1,7 +1,7 @@
 from gpiozero import LED
 from time import sleep
-led = LED(4)
-beeper= LED(23)
+led = LED(16)
+beeper= LED(18)
 for x in range(5):
 led.on()
 beeper.on()
